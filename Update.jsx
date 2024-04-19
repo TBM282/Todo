@@ -38,7 +38,7 @@ export const Update = () => {
                 type="text"
                 name="name"
                 className="form-control"
-                placeholder="Enter the name"
+                placeholder="Name"
                 value={updatedName}
                 onChange={(e) => setUpdatedName(e.target.value)}
               />
@@ -51,7 +51,7 @@ export const Update = () => {
                 type="email"
                 name="email"
                 className="form-control"
-                placeholder="Enter the Email"
+                placeholder="Email"
                 value={updatedEmail}
                 onChange={(e) => setUpdatedEmail(e.target.value)}
               />
